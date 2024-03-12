@@ -6,7 +6,7 @@ const heightInput = document.querySelector("#height");
 const sexInput = document.querySelector("#sex");
 const ageInput = document.querySelector("#age");
 const form = document.querySelector("form");
-const resetInput = document.querySelector('#reset');
+// const resetInput = document.querySelector('#reset');
 
 
 
@@ -321,11 +321,11 @@ if (index < 20 && age >= 18 && age <= 24  && sex === 'M' ){
     }  
     });
 
-    resetInput.addEventListener('click', () => {
-        heightInput.value = '';
-        weightInput.value = '';
-        sexInput.value = '';
-        ageInput.value = '';
+    // resetInput.addEventListener('click', () => {
+    //     heightInput.value = '';
+    //     weightInput.value = '';
+    //     sexInput.value = '';
+    //     ageInput.value = '';
      
-     })
+    //  })
 
