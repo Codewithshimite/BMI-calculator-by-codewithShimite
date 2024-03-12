@@ -6,19 +6,19 @@ const heightInput = document.querySelector("#height");
 const sexInput = document.querySelector("#sex");
 const ageInput = document.querySelector("#age");
 const form = document.querySelector("form");
-const resetInput = document.querySelector('#reset')
+const resetInput = document.querySelector('#reset');
 
 
 
 let height = heightInput.value;
-let weight = weightInput.value
+let weight = weightInput.value;
 let sex = sexInput.value;
 let age = ageInput.value;
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     let height = heightInput.value;
-    let weight = weightInput.value
+    let weight = weightInput.value;
     let sex = sexInput.value;
     let age = ageInput.value;
 
