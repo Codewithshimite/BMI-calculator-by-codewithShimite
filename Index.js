@@ -329,38 +329,3 @@ if (index < 20 && age >= 18 && age <= 24  && sex === 'M' ){
      
      })
 
-
-
-
-
-
-
-
-
-
-
-
-
-     
-   
-
-
-
-
-      
-    
-
-
-
-
-
-
-
-//     return index
-
-//    }
-
-// //    let weight = prompt('weight')
-// //    let height = prompt('Height')
-
-// BMI(weight,height);
