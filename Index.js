@@ -6,19 +6,19 @@ const heightInput = document.querySelector("#height");
 const sexInput = document.querySelector("#sex");
 const ageInput = document.querySelector("#age");
 const form = document.querySelector("form");
-// const resetInput = document.querySelector('#reset');
+const resetInput = document.querySelector('#reset')
 
 
 
 let height = heightInput.value;
-let weight = weightInput.value;
+let weight = weightInput.value
 let sex = sexInput.value;
 let age = ageInput.value;
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     let height = heightInput.value;
-    let weight = weightInput.value;
+    let weight = weightInput.value
     let sex = sexInput.value;
     let age = ageInput.value;
 
@@ -199,9 +199,6 @@ if (index < 20 && age >= 18 && age <= 24  && sex === 'M' ){
     }else if (index > 45 && age > 65 && sex === 'M' ){
         result.textContent =`${index}:Severe adiposity`
 
-
-
-
         
 
        
@@ -321,11 +318,46 @@ if (index < 20 && age >= 18 && age <= 24  && sex === 'M' ){
     }  
     });
 
-    // resetInput.addEventListener('click', () => {
-    //     heightInput.value = '';
-    //     weightInput.value = '';
-    //     sexInput.value = '';
-    //     ageInput.value = '';
+    resetInput.addEventListener('click', () => {
+        heightInput.value = '';
+        weightInput.value = '';
+        sexInput.value = '';
+        ageInput.value = '';
      
-    //  })
+     })
 
+
+
+
+
+
+
+
+
+
+
+
+
+     
+   
+
+
+
+
+      
+    
+
+
+
+
+
+
+
+//     return index
+
+//    }
+
+// //    let weight = prompt('weight')
+// //    let height = prompt('Height')
+
+// BMI(weight,height);
